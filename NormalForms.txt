@@ -1,0 +1,14 @@
+
+1->Necessary steps to normalize 1NF:
+ i>Each cell should have Single value.
+ ii>Enteries in a column are same type.
+ iii>Rows should identified uniquely.
+
+2->Necessary steps to normalize 2NF:
+ i>Table should be in 1NF.
+ ii>All attributes(Non-Key Columns)dependent on the key
+ 
+3->Necessary steps to normalize 3NF:
+ i>Table should be in 2NF.
+ ii>All Fields(Columns) can be determined Only be the key
+   in the table and no other column.
